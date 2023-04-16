@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Romans"
         tools:targetApi="31">
         <activity
+            android:name=".CreatePizzaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OriginalPizzasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectPizzaType"
+            android:exported="false" />
+        <activity
             android:name=".Login"
             android:exported="false" />
         <activity

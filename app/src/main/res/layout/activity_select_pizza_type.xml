@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/original_pizzas_button"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:text="Original Pizzas" />
+
+    <Button
+        android:id="@+id/create_pizza_button"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:text="Create Your Own Pizza"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"/>
+
+</LinearLayout>
+
