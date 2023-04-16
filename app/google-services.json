@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792382434953",
+    "project_id": "romans-e15d4",
+    "storage_bucket": "romans-e15d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792382434953:android:f10f639bc23f4aa3aa6058",
+        "android_client_info": {
+          "package_name": "com.trinityjayd.romans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792382434953-0es6e7v6kgcf6rkpe58nltm6q4hcctsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXK2dGNjIPIh9o3LizJ-ZdpetpivdwDSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792382434953-0es6e7v6kgcf6rkpe58nltm6q4hcctsn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
