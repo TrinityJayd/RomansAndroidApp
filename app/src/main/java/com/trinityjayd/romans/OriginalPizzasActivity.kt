@@ -20,7 +20,7 @@ class OriginalPizzasActivity : AppCompatActivity() {
 
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("http://localhost:5182/pizza/")
+            .baseUrl("https://romans.azurewebsites.net/pizza/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 

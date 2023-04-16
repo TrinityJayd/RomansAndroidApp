@@ -1,5 +1,6 @@
 package com.trinityjayd.romans
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -42,6 +43,9 @@ class Login : AppCompatActivity() {
                 if (task.isSuccessful) {
                     //toast message
                     Toast.makeText(baseContext, "Sign in successful", Toast.LENGTH_SHORT).show()
+                    //Go to SelectPizzaType
+                    val intent = Intent(this, SelectPizzaType::class.java)
+                    startActivity(intent)
                 } else {
                     //toast message
                     Toast.makeText(baseContext, "Sign in failed", Toast.LENGTH_SHORT).show()

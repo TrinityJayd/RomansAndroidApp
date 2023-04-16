@@ -38,6 +38,8 @@ class MainActivity : AppCompatActivity() {
             // Register user with email and password
             signUp(email, password)
 
+
+
         }
 
         loginLink.setOnClickListener {
@@ -54,6 +56,9 @@ class MainActivity : AppCompatActivity() {
                 if (task.isSuccessful) {
                     //toast message
                     Toast.makeText(baseContext, "Sign up successful", Toast.LENGTH_SHORT).show()
+                    // Go to login page
+                    val intent = Intent(this, Login::class.java)
+                    startActivity(intent)
                 } else {
                     //toast message
                     Toast.makeText(baseContext, "Sign up failed", Toast.LENGTH_SHORT).show()
